@@ -100,7 +100,8 @@
                                         <div class="row">
                                             <div class="col-xl-7">
                                                 <div class="">
-                                                    <form method="post" action="/{{user_name}}/withdraw"
+                                                    <form method="post"
+                                                        action="{{route('withdraw',{user_name:user_name})}}"
                                                         class="needs-validation" novalidate>
 
 
@@ -160,7 +161,8 @@
                                         <div class="row">
                                             <div class="col-xl-7">
                                                 <div class="">
-                                                    <form method="post" action="/{{user_name}}/withdraw/by/address"
+                                                    <form method="post"
+                                                        action="{{route('withdraw-address',{user_name:user_name})}}"
                                                         class="needs-validation" novalidate>
 
 
